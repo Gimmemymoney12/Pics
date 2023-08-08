@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamari's WRLDv1</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <h1>Jamari's WRLDv1</h1>
+    <a class="home" href="http://127.0.0.1:5500/Documents/HTML/JamariWRLD.html">Home</a>
+    <a class="biography" href=""></a>
+
+
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fnatusan.co.uk%2Fblogs%2Finside-scoop%2Fhow-do-cat-years-work-how-old-is-my-cat&psig=AOvVaw15kFFxs2TqMdGqYrAuw2hI&ust=1691613983126000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJiyx6b3zYADFQAAAAAdAAAAABAE" alt="picture of a georgia id">
+  
+    </body>
+    </html>
+
+
+
+
+
+a:hover{
+    color:black;
+}
+a:active{
+    color:blue;
+}
+.home{
+    color:black;
+}
+h1 {
+    margin-left:auto;
+    margin-right:auto;
+}
