@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jwrld V2</title>
+<style>
+/*Begining of css*/
+html{
+font-size:16px;
+}
+*{
+margin:0;
+padding:0;
+}
+.header{
+width:100%;
+height:91px;
+background-color:#ffffff;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.logo{
+width:150px;
+min-width:150px;
+display:flex;
+height:91px;
+align-items:center;
+margin-left:10px;
+}
+h1{
+font-family:"Martyric Personal Use Only";
+font-size:35px
+}
+.links-1{
+width:45vw;
+height:91px;
+display:flex;
+align-items:center;
+margin-left:25px;
+}
+.header a{
+font-family:Bebas Neue;
+padding-right:1vw;
+color:black;
+font-size:1em;
+text-decoration:none;
+}
+.header a:hover{
+color:#949494;
+transition:color 0.4s;
+}
+.links-2{
+height:91px;
+display:flex;
+align-items:center;
+justify-content:flex-end;
+width:35vw;
+}
+.image-links img{
+padding-left:5px;
+padding-right:5px;
+}
+
+.image-links .search{
+width:1em;
+padding-bottom:0.2em;
+}
+.image-links .cart{
+width:1.5em;
+padding-bottom:0.2em;
+}
+.image-links .account{
+width:0.8em;
+padding-bottom:0.1em;
+}
+.image-links .nav{
+width:1em;
+padding-bottom:0.2em;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: grey;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: grey;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/*Main Section*/
+section#main{
+height:50vw;
+min-height:450px;
+background-color:#f5f5f5;
+width:100%;
+}
+section#main div.container{
+display:flex;
+justify-content:space-between;
+width:100%;
+}
+
+.left-words{
+display:flex;
+flex-direction:column;
+padding-top:68px;
+text-align:center;
+padding-left:26px;
+min-width:325px;
+}
+.left-words h4{
+padding-bottom:19px;
+font-family:Bebas Neue;
+font-size:18.75pt;
+}
+.left-words h2{
+font-family:Gilroy;
+font-size:30pt;
+}
+span{
+color:#ff0000;
+}
+.image-headpones{
+padding-top:55px;
+}
+.image-headpones img{
+height:50vw;
+min-height:430px;
+max-height:650px;
+}
+.right-side{
+text-align:center;
+padding-top:145.5px;
+padding-right:51px;
+width:300px;
+}
+.buttons{
+font-family:Arial;
+margin-bottom:11.5px;
+}
+.buttons a{
+margin-right:46.5px;
+color:black;
+font-size:0.95em;
+}
+.buttons a:hover{
+color:#949494;
+}
+.buttons button{
+color:white;
+background-color:black;
+border:none;
+border-radius:25px;
+font-size:0.8em;
+padding:9px 20px 9px 20px;
+}
+.buttons button:hover{
+background-color:#373737;
+cursor:pointer;
+}
+.buttons button:active{
+background-color:#949494;
+}
+.right-words h4{
+font-size:1em;
+font-family:Bebas Neue;
+}
+.right-words p.first{
+font-family:Gilroy;
+font-size:7pt;
+margin-bottom:30.5px;
+}
+.right-words p.second{
+color:black;
+font-family:Gilroy;
+font-size:9pt;
+font-weight:bold;
+text-align:left;
+width:300px;
+margin-left:10px;
+}
+@media only screen and (max-width:836px) {
+
+.links-2 a{
+display:none;
+}
+section#main{
+height:50vw;
+min-height:900px;
+}
+section#main div.container{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+.right-side{
+padding-top:0px;
+position:relative;
+left:20px;
+}
+}
+@media only screen and (max-width:689px) {
+.links-1{
+display:none;
+}
+}
+/*End of css*/
+
+</style>
+</head>
+<body>
+<!--HEADER-->
+  <header>
+   <div class="header">
+     <div class="logo">
+     <h1>Jwrld Vz</h1>
+     </div>
+     <div class="links-1">
+       <a class="hover-underline-animation" href="#">Home</a>
+       <a class="hover-underline-animation"href="#">Headphones</a>
+       <a class="hover-underline-animation"href="#">Cellphones</a>
+       <a class="hover-underline-animation"href="#">Computers</a>
+       <a class="hover-underline-animation"href="#">Controllers</a>
+       <a class="hover-underline-animation"href="#">Accessories</a>
+     </div>
+     <div class="links-2">
+       <a class="hover-underline-animation"href="#">Orders</a>
+       <a class="hover-underline-animation"href="#">Contact Us</a>
+       <div class="image-links">
+         <img class="search" src="https://github.com/Gimmemymoney12/Pics/blob/main/jPhones/Search%20button.png?raw=true" alt="search button">
+         <img class="cart" src="https://github.com/Gimmemymoney12/Pics/blob/main/jPhones/Shoppin%20Cart.png?raw=true" alt="cart button">
+         <img class="account" src="https://github.com/Gimmemymoney12/Pics/blob/main/jPhones/Person%20Icon.png?raw=true" alt="account button">
+         <img class="nav" src="https://github.com/Gimmemymoney12/Pics/blob/main/jPhones/Menu%20Icon.png?raw=true" alt="nav button">
+       </div>
+     </div>
+   </div>
+  </header>
+  <!--MAIN SECTION-->
+  <main>
+  <section id="main">
+    <div class="container">
+      <div class="left-words">
+        <h4>Brand New</h4>
+        <h2><span>j</span>Phones Ultimate</h2>
+        <h2>Series 3</h2>
+      </div>
+      <div class="image-headpones">
+        <img src="https://github.com/Gimmemymoney12/Pics/blob/main/jPhones/HeadphonesNew.png?raw=true" alt="4k picture of jPhones">
+      </div>
+      <!--RIGHT SIDE-->
+      <div class="right-side">
+        <div class="buttons">
+        <a href="#">Learn more</a>
+        <button>Buy now</button>
+        </div>
+        <div class="right-words">
+          <h4>NOISE CANCELING   ·  WIRELESS  ·  BUILT-IN MICROPHONE</h4>
+          <p class="first">Trade in a old set of "jPhones" and get these 25% off!</p>
+          <p class="second">Get up to 40% more noise cancelation in game with
+these new oustanding jPhones. Made for all consoles, 
+can even connect to any phone or computer with the
+bluetooth feature. Getting a set of jPhones is a great
+way to Enjoy your gaming experience in style!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Site</title>
+<style>
+/*Begining of css*/
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+header{
+background-color:black;
+height:101px;
+width:100%;
+}
+.header{
+display:flex;
+justify-content:space-between;
+}
+.logo{
+color:white;
+height:99px;
+display:flex;
+align-items:center;
+margin-left:32px;
+}
+h1{
+font-weight:100;
+}
+.links{
+height:73px;
+display:block;
+width:300px;
+min-width:300px;
+text-align:center;
+padding-top:25px;
+}
+.links a{
+color:white;
+padding-left:17.5px;
+padding-right:17.5px;
+line-height:25px;
+text-decoration:none;
+font-size:18px;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: grey;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: grey;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.image-links{
+height:99px;
+display:flex;
+align-items:center;
+margin-right:32px;
+}
+
+.instagram-link{
+height:20px;
+padding-right:23.5px;
+}
+.facebook-link{
+height:30px;
+padding-right:23.5px;
+}
+.twitter-link{
+height:20px;
+padding-right:23.5px;
+}
+.shopping-link{
+height:20px;
+}
+.image-links a{
+text-decoration:none;
+color:white;
+padding-left:5px;
+}
+#main{
+height:453px;
+background-color:grey;
+background-image: url(https://github.com/Gimmemymoney12/Pics/blob/main/Tankten+-+Monochrome+Edit+w+plants.png?raw=true);
+background-size:cover;
+background-position: center;
+filter: brightness(100%);
+}
+.main-text{
+height:452px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+.main-text h2{
+color:white;
+font-size:50px;
+font-weight:100;
+}
+.main-text button{
+color:white;
+border:none;
+padding:0px 45px 0px 45px;
+background-color:#a8a6a1;
+line-height:25px;
+font-size:16px;
+font-family:Times New Roman;
+margin-top:39px;
+}
+button span{
+display:block;
+}
+.main-text button:hover{
+opacity:80%;
+cursor:pointer;
+transition: opacity 0.5s;
+}
+#plant-section{
+background-color:#38383b;
+height:562px;
+width:100%;
+}
+
+
+.plant-container{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+height:561px;
+} 
+.plant-header h3{
+color:white;
+font-size:22px;
+font-weight:100;
+}
+
+.plant-flex{
+display:flex;
+margin-top:44.5px;
+}
+.plant-flex img{
+height:261px;
+}
+.flex-1{
+display:flex;
+align-items:center;
+text-align:center;
+flex-direction:column;
+margin-right:10px;
+color:white;
+}
+.flex-1 p{
+font-size:18px;
+margin-bottom:22px;
+}
+.flex-1 img{
+margin-bottom:18px;
+}
+.flex-1 button{
+color:white;
+border:none;
+padding:15px 20px 15px 20px;
+background-color:#a8a6a1;
+line-height:25px;
+font-size:13px;
+font-family:Times New Roman;
+}
+
+
+.flex-1 button:hover{
+opacity:80%;
+cursor:pointer;
+transition: opacity 0.5s;
+}
+.flex-1 button:active{
+background-color:#dfdcd5;
+}
+ 
+ 
+ @media only screen and (max-width: 642px) {
+  .links {
+    display:none;
+  }
+  #plant-section{
+  height:1275px;
+  }
+  .plant-flex{
+  display:inline-block;
+  margin-top:0px;
+  }
+  .plant-container{
+  position:relative;
+  top:367px;
+  }
+  .flex-1 img{
+margin-top:18px;
+}
+}
+
+/*End of css*/
+</style>
+</head>
+<body>
+<!--HEADER-->
+  <header>
+   <div class="header">
+    <div class="logo">
+      <h1>Jbrunch</h1>
+    </div>
+    <div class="links">
+      <a class="hover-underline-animation"href="#">Shop</a>
+      <a class="hover-underline-animation"href="#">Our Story</a>
+      <a class="hover-underline-animation"href="#">Journal</a>
+      <a class="hover-underline-animation"href="#">Contact</a>
+    </div>
+    <div class="image-links">
+    <a href="#"><img class="instagram-link" src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png" alt="instagram link"></a>
+    <a href="#"><img class="facebook-link" src="https://www.remotefinancialplanner.com/wp-content/uploads/2016/07/facebook-logo-png-white-facebook-logo-png-white-facebook-icon-png-32.png" alt="facbook link"></a>
+    <a href="#"><img class="twitter-link" src="https://github.com/Gimmemymoney12/Pics/blob/main/twitter-256.png?raw=true" alt="twitter link"></a>
+    <a href="#"><img class="shopping-link" src="https://github.com/Gimmemymoney12/Pics/blob/main/shopping-cart-256.png?raw=true" alt="shopping link"></a>
+    <a href="#">0</a>
+    </div>
+   </div>
+  </header>
+  <!--MAIN SECTION-->
+  <main>
+   <section id="main">
+    <div class="main-text">
+      <h2>Plants and Pots</h2>
+      <h2>For Your Home</h2>
+      <button>Shop <span>Now</span></button>
+    </div>
+   </section>
+  </main>
+  <!--PLANT SECTION-->
+   <section id="plant-section">
+    <div class="plant-container">
+     <div class="plant-header">
+       <h3>Fan Favorites</h3>
+     </div>
+     <div class="plant-flex">
+      <div class="flex-1">
+        <img src="https://images.squarespace-cdn.com/content/v1/624b3c6dbfcb28795baabd33/1649097860310-J0DH20X4OZ15GU0F132J/image.jpg?format=750w" alt="plant">
+        <p class="lil">Lil' Guys</p>
+        <button class="one-buy">Buy Now</button>
+      </div>
+      <div class="flex-1">
+        <img src="https://images.squarespace-cdn.com/content/v1/624b3c6dbfcb28795baabd33/1649097860317-2IC2WZTLET6GDMDSJYH6/image.jpg?format=750w" alt="plant">
+       <p class="bigger">Bigger Statements</p>
+       <button class="two-buy">Buy Now</button>
+     </div>
+     <div class="flex-1">
+       <img src="https://images.squarespace-cdn.com/content/v1/624b3c6dbfcb28795baabd33/1649097860323-VZFT6LGS791L47WIULXB/Ecomm_02_Lily_004.jpg?format=750w" alt="plant">
+       <p class="low">Low Maintenance</p>
+       <button class="three-buy">Buy Now</button>
+       </div>
+     </div>
+    </div>
+   </section>
+</body>
+</html>
