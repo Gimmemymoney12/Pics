@@ -1,0 +1,13 @@
+smartphones:
+
+26abc8
+
+23454f
+---------------
+Desktops
+
+#E67C30
+
+
+#F1DF55
+
